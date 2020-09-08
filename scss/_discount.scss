@@ -1,0 +1,18 @@
+.discount {
+   padding: 32px 0;
+   background: linear-gradient(90.79deg, #76C98E 20.76%, #89E3A3 79.48%);
+   margin-top: -55px;
+
+   &__title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 130%;
+      color: #FFFFFF;
+
+      span {
+         font-weight: bold;
+      }
+   }
+}

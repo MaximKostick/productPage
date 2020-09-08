@@ -1,0 +1,151 @@
+.products {
+   padding: 100px 0;
+
+   &__slider {
+      overflow: hidden;
+      border-radius: 50px 0;
+      height: 555px;
+      position: relative;
+
+      &--card {
+         height: 360px;
+      }
+   }
+
+   &__main-product {
+      padding-bottom: 145px;
+   }
+
+
+   &__list {
+      .swiper-slide {
+         width: 86px !important;
+         height: 86px;
+         border-radius: 50%;
+         overflow: hidden;
+      }
+   }
+
+   &__name {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 130%;
+      color: $title-color;
+      padding-bottom: 32px;
+   }
+
+   &__descr {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 170%;
+      color: $text-color;
+      padding-bottom: 16px;
+
+      span {
+         font-weight: bold;
+      }
+   }
+
+   &__colors {
+      display: flex;
+      padding-bottom: 32px;
+   }
+
+   &__color {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      margin-right: 16px;
+      transition: 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+         box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.25);
+      }
+
+      &:last-child {
+         margin: 0;
+      }
+
+      &--red {
+         background: #C47179;
+      }
+
+      &--rose {
+         background: #F3BAC3;
+
+      }
+
+      &--brown {
+         background: #D3C9C4;
+      }
+
+      &--blue {
+         background: #A4E6F4;
+      }
+   }
+
+   &__prices {
+      display: flex;
+      align-items: baseline;
+      padding-bottom: 16px;
+
+   }
+
+   &__new-price {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 27px;
+      line-height: 150%;
+      color: $text-color;
+      padding-right: 16px;
+   }
+
+   &__last-price {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150%;
+      text-decoration-line: line-through;
+      color: #E0E0E0;
+   }
+
+   &__buy {
+      padding: 20px 30px;
+      background-color: #F3A14B;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+      border-radius: 50px;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+         box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.25);
+      }
+   }
+
+   &__label {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 16px 26px;
+      z-index: 999;
+      background: #76C98E;
+      border-radius: 0px 0px 0px 28px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: #FFFFFF;
+   }
+}

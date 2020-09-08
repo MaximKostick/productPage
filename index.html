@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product Page</title>
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./bootstrap/bootstrap-grid.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <header class="header">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="row">
+                  <div class="col-12">
+                     <ul class="header__nav">
+                        <li class="header__option"><a href="#" class="header__link">Отзывы</a></li>
+                        <li class="header__option"><a href="#" class="header__link">Контакты</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-12">
+                     <div class="header__text">
+                        <h1 class="header__title">
+                           Вязаное — <br>
+                           не значит <br>
+                           старомодное
+                        </h1>
+                        <p class="header__subtitle">
+                           Вязаные шапки <br>
+                           из натурального пуха
+                        </p>
+                        <a href="#buy" class="header__button">Просмотреть товары</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="header-swiper-container swiper-no-swiping">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                     <!-- Slides -->
+                     <div class="swiper-slide"><img src="./img/header.png" alt="header"></div>
+                     <div class="swiper-slide"><img src="./img/header2.png" alt="header"></div>
+                     <div class="swiper-slide"><img src="./img/header3.png" alt="header"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+   </div>
+   <main>
+      <div class="discount">
+         <div class="container">
+            <p class="discount__title">
+               Закажите товар сегодня <br>
+               и получите скидку <span>20%</span>
+            </p>
+         </div>
+      </div>
+      <div class="products">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="products__main-product">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="products__slider">
+                              <div class="products__label">
+                                 Хит продаж
+                              </div>
+                              <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                    <img src="./img/main-product3.png" alt="">
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="./img/main-product2.png" alt="">
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="./img/main-product1.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-pagination"></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <h2 class="products__name">
+                              Вязаная шапка такори
+                              Fuzzy
+                           </h2>
+                           <p class="products__descr">
+                              Шапка вязаная из пуха норки. Пушистая и теплая. Модная и трендовая модель. Можно носить с
+                              одним отворотом, драпируя сзади. Можно с двойным отворотом по голове, а можно с вытянутой
+                              макушкой.
+                           </p>
+                           <p class="products__descr">
+                              <span>Материалы:</span>  пух норки, пуховая пряжа, ангора 100%
+                           </p>
+                           <div class="products__colors">
+                              <div class="products__color products__color--red"></div>
+                              <div class="products__color products__color--rose"></div>
+                              <div class="products__color products__color--brown"></div>
+                              <div class="products__color products__color--blue"></div>
+                           </div>
+                           <div class="products__prices">
+                              <div class="products__new-price">1 299 грн</div>
+                              <div class="products__last-price">1 999 грн</div>
+                           </div>
+                           <a href="" id="buy" class="products__buy">В корзину</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="products__card card">
+                           <div class="card__wrapper">
+                              <div class="products__slider products__slider--card">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.3.jpg" alt="">
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                              <h3 class="card__title">
+                                 Вязаная шапка - берет
+                              </h3>
+                              <p class="card__descr">
+                                 Берет вязаный из пуха норки. Пушистый, мягкий и не колючий.
+                              </p>
+                           </div>
+                           <div class="card__buttom">
+                              <p class="card__price">
+                                 1 199 грн
+                              </p>
+                              <a href="" class="card__add">
+                                 В корзину
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="products__card card">
+                           <div class="card__wrapper">
+                              <div class="products__slider products__slider--card">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_2.1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_2.2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_2.3.jpg" alt="">
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                              <h3 class="card__title">
+                                 Вязаная косынка
+                              </h3>
+                              <p class="card__descr">
+                                 Вязаная косынка из пуха норки.
+                                 Модный аксессуар, который сделает
+                                 вас неповторимой!
+                              </p>
+                           </div>
+                           <div class="card__buttom">
+                              <p class="card__price">
+                                 1 499 грн
+                              </p>
+                              <a href="" class="card__add">
+                                 В корзину
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="products__card card">
+                           <div class="card__wrapper">
+                              <div class="products__slider products__slider--card">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_3.1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_3.2.jpg" alt="">
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                              <h3 class="card__title">
+                                 Балаклава вязаная
+                              </h3>
+                              <p class="card__descr">
+                                 Балаклава вязаная из пуха норки.
+                                 Подойдет и к шубке, и к пуховику.
+                              </p>
+                           </div>
+                           <div class="card__buttom">
+                              <p class="card__price">
+                                 1 399 грн
+                              </p>
+                              <a href="" class="card__add">
+                                 В корзину
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="products__card card">
+                           <div class="card__wrapper">
+                              <div class="products__slider products__slider--card">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.3.jpg" alt="">
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                              <h3 class="card__title">
+                                 Вязаная шапка такори
+                                 и косынка
+                              </h3>
+                              <p class="card__descr">
+                                 Вязаный комплект из пуха норки.
+                                 Пушистая шапочка в стиле такори и вязаная косынка.
+                              </p>
+                           </div>
+                           <div class="card__buttom">
+                              <p class="card__price">
+                                 2 599 грн
+                              </p>
+                              <a href="" class="card__add">
+                                 В корзину
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="products__card card">
+                           <div class="card__wrapper">
+                              <div class="products__slider products__slider--card">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.3.jpg" alt="">
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                              <h3 class="card__title">
+                                 Капюшон (капор)
+                                 вязаный
+                              </h3>
+                              <p class="card__descr">
+                                 Капюшон вязаный из пуха норки. В холодную погоду можно затянуть шнурок.
+                              </p>
+                           </div>
+                           <div class="card__buttom">
+                              <p class="card__price">
+                                 1 799 грн
+                              </p>
+                              <a href="" class="card__add">
+                                 В корзину
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="products__card card">
+                           <div class="card__wrapper">
+                              <div class="products__slider products__slider--card">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/Card_1.3.jpg" alt="">
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                              <h3 class="card__title">
+                                 Балаклава вязаная
+                                 с застежкой
+                              </h3>
+                              <p class="card__descr">
+                                 Балаклава вязаная из пуха норки.
+                                 С разъёмным горлом под застежку.
+                              </p>
+                           </div>
+                           <div class="card__buttom">
+                              <p class="card__price">
+                                 1 299 грн
+                              </p>
+                              <a href="" class="card__add">
+                                 В корзину
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </main>
+   <script src="./js/swiperScript.js"></script>
+</body>
+
+</html>
