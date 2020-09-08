@@ -5,9 +5,24 @@ var headerSwiper = new Swiper('.header-swiper-container', {
    loop: true,
 });
 
-var mainProductSwiper = new Swiper('.products__slider', {
+let mySwiperNav = new Swiper('.products__slider-nav', {
+   slidesPerView: 3,
+   spaceBetween: 32,
+   freeMode: true,
+   loopedSlides: 3,
+   direction: 'horizontal',
+   watchSlidesVisibility: true,
+   watchSlidesProgress: true,
+});
+
+let mainProductSwiper = new Swiper('.products__slider', {
+   loopedSlides: 3,
+   loop: true,
+   thumbs: {
+      swiper: mySwiperNav,
+   },
    pagination: {
       el: '.swiper-pagination',
-      clickable: false,
+      type: 'bullets',
    },
 });
